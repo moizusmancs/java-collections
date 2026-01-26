@@ -1,3 +1,5 @@
+package collections.lecture2;
+
 import java.util.Comparator;
 
 public class CarNameComparator implements Comparator<Car> {

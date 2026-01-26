@@ -1,5 +1,6 @@
+package collections.lecture2;
+
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class CollectionsTwo {
     static void main(){
@@ -16,10 +17,10 @@ public class CollectionsTwo {
         cars[1] = new Car("sedan", "diesel");
         cars[2] = new Car("hatchback", "cng");
 
-//        Arrays.sort(cars, (Car obj1, Car obj2) -> obj1.carName.compareTo(obj2.carName));
-//        Arrays.sort(cars, Comparator.comparing((Car obj) -> obj.carName).reversed());
-//        Arrays.sort(cars, new CarNameComparator());
-//        Arrays.sort(cars, new Car());
+//        Arrays.sort(cars, (collections.lecture2.Car obj1, collections.lecture2.Car obj2) -> obj1.carName.compareTo(obj2.carName));
+//        Arrays.sort(cars, Comparator.comparing((collections.lecture2.Car obj) -> obj.carName).reversed());
+//        Arrays.sort(cars, new collections.lecture2.CarNameComparator());
+//        Arrays.sort(cars, new collections.lecture2.Car());
 
 
         for (Car temp : cars){

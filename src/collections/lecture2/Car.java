@@ -1,3 +1,5 @@
+package collections.lecture2;
+
 import java.util.Comparator;
 
 public class Car implements Comparator<Car> {
@@ -13,7 +15,7 @@ public class Car implements Comparator<Car> {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "collections.lecture2.Car{" +
                 "carName='" + carName + '\'' +
                 ", carType='" + carType + '\'' +
                 '}';
