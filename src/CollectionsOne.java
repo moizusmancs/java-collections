@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class TestCollections {
+public class CollectionsOne {
     static void main() {
 
         List<Integer> values = new ArrayList<>();
