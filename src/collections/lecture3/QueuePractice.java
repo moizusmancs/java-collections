@@ -1,10 +1,17 @@
 package collections.lecture3;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
 
 public class QueuePractice {
     static void main() {
         ArrayDeque<Integer> arrayDeque = new ArrayDeque<>();
+
+        List<Integer> arr = new ArrayList<>();
+
+        Vector<Integer> vec = new Vector<>();
 
 //        arrayDeque.addFirst(1);
 //        System.out.println(arrayDeque.offerFirst(2));
